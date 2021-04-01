@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* https://justfox.cf/src/images/background1.jpg h */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 body {
-  background: black;
+  background: url('https://steamuserimages-a.akamaihd.net/ugc/934931664793124225/D9861E4A35F464C8EE9E5B3B58BA2E02B352B743/') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   margin: 0;
   padding: 0;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 li {
   display: inline;
@@ -75,22 +80,13 @@ ul {
   border-bottom: 3px solid #71368A;
 }
 #projects {
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  text-align: center;
   cursor: default;
   margin: auto;
   font-size: 30px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
-#projects:hover {
+.projectsLink:hover {
   border-bottom: 3px solid #71368A;
 }
 .projectsLink {
@@ -98,12 +94,42 @@ ul {
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
   color: white;
+  top: 50%;
 }
 .projectsImages {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
-.projectsText {
+#projectsText1 {
+  position: absolute;
+  font-weight: bold;
+  right: -25%;
+  top: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: default;
+  font-size: 20px;
+  margin-top: auto;
+  text-align: center;
+  text-align: center;
   float: center;
+  width: 50%;
+}
+#projectsText2 {
+  position: absolute;
+  font-weight: bold;
+  left: 25%;
+  top: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: default;
+  font-size: 20px;
+  margin-top: auto;
+  text-align: center;
+  text-align: center;
+  float: center;
+  width: 50%;
 }

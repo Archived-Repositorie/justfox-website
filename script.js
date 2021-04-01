@@ -6,7 +6,7 @@ async function main() {
   async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  const text = "JustFox!";
+  const text = "Never gonna give you up";
   const textTable = [""];
   for (let i = 0; i < text.length; i++) {
     textTable.push(textTable[i] + text[i]);
