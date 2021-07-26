@@ -107,3 +107,18 @@ ul {
 .projectsText {
   float: center;
 }
+@media (max-width: 470px) {
+  #mainText {
+    font-size: 100px;
+  }
+}
+@media (max-width: 380px) {
+  #mainText {
+    font-size: 80px;
+  }
+}
+@media (max-width: 320px) {
+  #mainText {
+    font-size: 50px;
+  }
+}
